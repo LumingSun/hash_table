@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-D:/C/hash/src/hash_table.c
+/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/hash_table.h
+
+/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/main.c
 hash_table.h
-D:/C/hash/src/hash_table.h
-stdlib.h
--
+/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/hash_table.h
+prime.h
+/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/prime.h
 string.h
 -
+stdio.h
+-
 
-D:/C/hash/src/hash_table.h
-
-D:/C/hash/src/main.c
-hash_table.h
-D:/C/hash/src/hash_table.h
+/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/prime.h
 

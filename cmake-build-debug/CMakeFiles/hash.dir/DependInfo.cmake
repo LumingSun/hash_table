@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/C/hash/src/hash_table.c" "D:/C/hash/cmake-build-debug/CMakeFiles/hash.dir/src/hash_table.c.obj"
-  "D:/C/hash/src/main.c" "D:/C/hash/cmake-build-debug/CMakeFiles/hash.dir/src/main.c.obj"
+  "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/hash_table.c" "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug/CMakeFiles/hash.dir/src/hash_table.c.o"
+  "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/main.c" "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug/CMakeFiles/hash.dir/src/main.c.o"
+  "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/prime.c" "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug/CMakeFiles/hash.dir/src/prime.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

@@ -1,10 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hash.dir/src/hash_table.c.obj"
-  "CMakeFiles/hash.dir/src/main.c.obj"
-  "hash.exe"
-  "hash.exe.manifest"
+  "CMakeFiles/hash.dir/src/hash_table.c.o"
+  "CMakeFiles/hash.dir/src/main.c.o"
+  "CMakeFiles/hash.dir/src/prime.c.o"
+  "hash"
   "hash.pdb"
-  "libhash.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

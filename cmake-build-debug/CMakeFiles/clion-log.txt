@@ -1,4 +1,4 @@
-"D:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\C\hash
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/renzhenru/Desktop/Mac 孙路明/hash_table"
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/C/hash/cmake-build-debug
+-- Build files have been written to: /Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug

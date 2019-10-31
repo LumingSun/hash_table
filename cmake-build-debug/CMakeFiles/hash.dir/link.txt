@@ -1,3 +1,1 @@
-"D:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\hash.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\hash.dir/objects.a @CMakeFiles\hash.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\hash.dir/objects.a -Wl,--no-whole-archive  -o hash.exe -Wl,--out-implib,libhash.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\hash.dir\linklibs.rsp
+/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/hash.dir/src/hash_table.c.o CMakeFiles/hash.dir/src/main.c.o CMakeFiles/hash.dir/src/prime.c.o  -o hash 
