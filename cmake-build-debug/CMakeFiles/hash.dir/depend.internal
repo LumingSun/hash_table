@@ -5,10 +5,13 @@ CMakeFiles/hash.dir/src/hash_table.c.o
  /Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/hash_table.c
  /Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/hash_table.h
  /Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/prime.h
-CMakeFiles/hash.dir/src/main.c.o
- /Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/hash_table.h
- /Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/main.c
- /Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/prime.h
+ /Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/xmalloc.h
 CMakeFiles/hash.dir/src/prime.c.o
  /Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/prime.c
  /Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/prime.h
+CMakeFiles/hash.dir/src/xmalloc.c.o
+ /Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/xmalloc.c
+ /Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/xmalloc.h
+CMakeFiles/hash.dir/test/ht_test.c.o
+ /Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/hash_table.h
+ /Users/renzhenru/Desktop/Mac 孙路明/hash_table/test/ht_test.c

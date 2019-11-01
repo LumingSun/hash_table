@@ -7,6 +7,7 @@
 #include <string.h>
 #include <math.h>
 #include "prime.h"
+#include "xmalloc.h"
 
 static ht_item HT_DELETED_ITEM = {NULL, NULL};
 static ht_item* ht_new_item(const char* key,const char * v){
@@ -17,16 +18,17 @@ static ht_item* ht_new_item(const char* key,const char * v){
 }
 
 ht_hash_table* ht_new_sized(const int base_size){
-    ht_hash_table * ht = malloc(sizeof(ht_hash_table));
+    ht_hash_table * ht = xmalloc(sizeof(ht_hash_table));
     ht->base_size = base_size;
-    ht->size = next_prime(ht->base_size);
+    const int tmp = 50 << ht->base_size;;
+    ht->size = next_prime(tmp);
     ht->count = 0;
     ht->items = calloc((size_t)ht->size, sizeof(ht_item*));
     return ht;
 }
 
-ht_hash_table* ht_new(){
-    return ht_new_sized(HT_INITIAL_BASE_SIZE);
+ht_hash_table* ht_new() {
+    return ht_new_sized(0);
 }
 
 static void ht_del_item(ht_item* i){

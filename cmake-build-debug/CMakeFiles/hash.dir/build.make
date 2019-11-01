@@ -70,22 +70,9 @@ CMakeFiles/hash.dir/src/hash_table.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hash.dir/src/hash_table.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/hash_table.c" -o CMakeFiles/hash.dir/src/hash_table.c.s
 
-CMakeFiles/hash.dir/src/main.c.o: CMakeFiles/hash.dir/flags.make
-CMakeFiles/hash.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/hash.dir/src/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hash.dir/src/main.c.o   -c "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/main.c"
-
-CMakeFiles/hash.dir/src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hash.dir/src/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/main.c" > CMakeFiles/hash.dir/src/main.c.i
-
-CMakeFiles/hash.dir/src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hash.dir/src/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/main.c" -o CMakeFiles/hash.dir/src/main.c.s
-
 CMakeFiles/hash.dir/src/prime.c.o: CMakeFiles/hash.dir/flags.make
 CMakeFiles/hash.dir/src/prime.c.o: ../src/prime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hash.dir/src/prime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/hash.dir/src/prime.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hash.dir/src/prime.c.o   -c "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/prime.c"
 
 CMakeFiles/hash.dir/src/prime.c.i: cmake_force
@@ -96,21 +83,49 @@ CMakeFiles/hash.dir/src/prime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hash.dir/src/prime.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/prime.c" -o CMakeFiles/hash.dir/src/prime.c.s
 
+CMakeFiles/hash.dir/test/ht_test.c.o: CMakeFiles/hash.dir/flags.make
+CMakeFiles/hash.dir/test/ht_test.c.o: ../test/ht_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hash.dir/test/ht_test.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hash.dir/test/ht_test.c.o   -c "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/test/ht_test.c"
+
+CMakeFiles/hash.dir/test/ht_test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hash.dir/test/ht_test.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/test/ht_test.c" > CMakeFiles/hash.dir/test/ht_test.c.i
+
+CMakeFiles/hash.dir/test/ht_test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hash.dir/test/ht_test.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/test/ht_test.c" -o CMakeFiles/hash.dir/test/ht_test.c.s
+
+CMakeFiles/hash.dir/src/xmalloc.c.o: CMakeFiles/hash.dir/flags.make
+CMakeFiles/hash.dir/src/xmalloc.c.o: ../src/xmalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hash.dir/src/xmalloc.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hash.dir/src/xmalloc.c.o   -c "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/xmalloc.c"
+
+CMakeFiles/hash.dir/src/xmalloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hash.dir/src/xmalloc.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/xmalloc.c" > CMakeFiles/hash.dir/src/xmalloc.c.i
+
+CMakeFiles/hash.dir/src/xmalloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hash.dir/src/xmalloc.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/xmalloc.c" -o CMakeFiles/hash.dir/src/xmalloc.c.s
+
 # Object files for target hash
 hash_OBJECTS = \
 "CMakeFiles/hash.dir/src/hash_table.c.o" \
-"CMakeFiles/hash.dir/src/main.c.o" \
-"CMakeFiles/hash.dir/src/prime.c.o"
+"CMakeFiles/hash.dir/src/prime.c.o" \
+"CMakeFiles/hash.dir/test/ht_test.c.o" \
+"CMakeFiles/hash.dir/src/xmalloc.c.o"
 
 # External object files for target hash
 hash_EXTERNAL_OBJECTS =
 
 hash: CMakeFiles/hash.dir/src/hash_table.c.o
-hash: CMakeFiles/hash.dir/src/main.c.o
 hash: CMakeFiles/hash.dir/src/prime.c.o
+hash: CMakeFiles/hash.dir/test/ht_test.c.o
+hash: CMakeFiles/hash.dir/src/xmalloc.c.o
 hash: CMakeFiles/hash.dir/build.make
 hash: CMakeFiles/hash.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable hash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable hash"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hash.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

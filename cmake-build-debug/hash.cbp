@@ -86,13 +86,19 @@
 		<Unit filename="/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/hash_table.h">
 			<Option target="hash"/>
 		</Unit>
-		<Unit filename="/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/main.c">
-			<Option target="hash"/>
-		</Unit>
 		<Unit filename="/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/prime.c">
 			<Option target="hash"/>
 		</Unit>
 		<Unit filename="/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/prime.h">
+			<Option target="hash"/>
+		</Unit>
+		<Unit filename="/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/xmalloc.c">
+			<Option target="hash"/>
+		</Unit>
+		<Unit filename="/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/xmalloc.h">
+			<Option target="hash"/>
+		</Unit>
+		<Unit filename="/Users/renzhenru/Desktop/Mac 孙路明/hash_table/test/ht_test.c">
 			<Option target="hash"/>
 		</Unit>
 		<Unit filename="/Users/renzhenru/Desktop/Mac 孙路明/hash_table/CMakeLists.txt">

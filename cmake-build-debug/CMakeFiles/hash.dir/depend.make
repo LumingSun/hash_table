@@ -4,11 +4,14 @@
 CMakeFiles/hash.dir/src/hash_table.c.o: ../src/hash_table.c
 CMakeFiles/hash.dir/src/hash_table.c.o: ../src/hash_table.h
 CMakeFiles/hash.dir/src/hash_table.c.o: ../src/prime.h
-
-CMakeFiles/hash.dir/src/main.c.o: ../src/hash_table.h
-CMakeFiles/hash.dir/src/main.c.o: ../src/main.c
-CMakeFiles/hash.dir/src/main.c.o: ../src/prime.h
+CMakeFiles/hash.dir/src/hash_table.c.o: ../src/xmalloc.h
 
 CMakeFiles/hash.dir/src/prime.c.o: ../src/prime.c
 CMakeFiles/hash.dir/src/prime.c.o: ../src/prime.h
+
+CMakeFiles/hash.dir/src/xmalloc.c.o: ../src/xmalloc.c
+CMakeFiles/hash.dir/src/xmalloc.c.o: ../src/xmalloc.h
+
+CMakeFiles/hash.dir/test/ht_test.c.o: ../src/hash_table.h
+CMakeFiles/hash.dir/test/ht_test.c.o: ../test/ht_test.c
 

@@ -150,33 +150,6 @@ src/hash_table.c.s:
 	$(MAKE) -f CMakeFiles/hash.dir/build.make CMakeFiles/hash.dir/src/hash_table.c.s
 .PHONY : src/hash_table.c.s
 
-src/main.o: src/main.c.o
-
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.c.o:
-	$(MAKE) -f CMakeFiles/hash.dir/build.make CMakeFiles/hash.dir/src/main.c.o
-.PHONY : src/main.c.o
-
-src/main.i: src/main.c.i
-
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.c.i:
-	$(MAKE) -f CMakeFiles/hash.dir/build.make CMakeFiles/hash.dir/src/main.c.i
-.PHONY : src/main.c.i
-
-src/main.s: src/main.c.s
-
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.c.s:
-	$(MAKE) -f CMakeFiles/hash.dir/build.make CMakeFiles/hash.dir/src/main.c.s
-.PHONY : src/main.c.s
-
 src/prime.o: src/prime.c.o
 
 .PHONY : src/prime.o
@@ -204,6 +177,60 @@ src/prime.c.s:
 	$(MAKE) -f CMakeFiles/hash.dir/build.make CMakeFiles/hash.dir/src/prime.c.s
 .PHONY : src/prime.c.s
 
+src/xmalloc.o: src/xmalloc.c.o
+
+.PHONY : src/xmalloc.o
+
+# target to build an object file
+src/xmalloc.c.o:
+	$(MAKE) -f CMakeFiles/hash.dir/build.make CMakeFiles/hash.dir/src/xmalloc.c.o
+.PHONY : src/xmalloc.c.o
+
+src/xmalloc.i: src/xmalloc.c.i
+
+.PHONY : src/xmalloc.i
+
+# target to preprocess a source file
+src/xmalloc.c.i:
+	$(MAKE) -f CMakeFiles/hash.dir/build.make CMakeFiles/hash.dir/src/xmalloc.c.i
+.PHONY : src/xmalloc.c.i
+
+src/xmalloc.s: src/xmalloc.c.s
+
+.PHONY : src/xmalloc.s
+
+# target to generate assembly for a file
+src/xmalloc.c.s:
+	$(MAKE) -f CMakeFiles/hash.dir/build.make CMakeFiles/hash.dir/src/xmalloc.c.s
+.PHONY : src/xmalloc.c.s
+
+test/ht_test.o: test/ht_test.c.o
+
+.PHONY : test/ht_test.o
+
+# target to build an object file
+test/ht_test.c.o:
+	$(MAKE) -f CMakeFiles/hash.dir/build.make CMakeFiles/hash.dir/test/ht_test.c.o
+.PHONY : test/ht_test.c.o
+
+test/ht_test.i: test/ht_test.c.i
+
+.PHONY : test/ht_test.i
+
+# target to preprocess a source file
+test/ht_test.c.i:
+	$(MAKE) -f CMakeFiles/hash.dir/build.make CMakeFiles/hash.dir/test/ht_test.c.i
+.PHONY : test/ht_test.c.i
+
+test/ht_test.s: test/ht_test.c.s
+
+.PHONY : test/ht_test.s
+
+# target to generate assembly for a file
+test/ht_test.c.s:
+	$(MAKE) -f CMakeFiles/hash.dir/build.make CMakeFiles/hash.dir/test/ht_test.c.s
+.PHONY : test/ht_test.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +243,15 @@ help:
 	@echo "... src/hash_table.o"
 	@echo "... src/hash_table.i"
 	@echo "... src/hash_table.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
 	@echo "... src/prime.o"
 	@echo "... src/prime.i"
 	@echo "... src/prime.s"
+	@echo "... src/xmalloc.o"
+	@echo "... src/xmalloc.i"
+	@echo "... src/xmalloc.s"
+	@echo "... test/ht_test.o"
+	@echo "... test/ht_test.i"
+	@echo "... test/ht_test.s"
 .PHONY : help
 
 

@@ -5,8 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/hash_table.c" "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug/CMakeFiles/hash.dir/src/hash_table.c.o"
-  "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/main.c" "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug/CMakeFiles/hash.dir/src/main.c.o"
   "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/prime.c" "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug/CMakeFiles/hash.dir/src/prime.c.o"
+  "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/src/xmalloc.c" "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug/CMakeFiles/hash.dir/src/xmalloc.c.o"
+  "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/test/ht_test.c" "/Users/renzhenru/Desktop/Mac 孙路明/hash_table/cmake-build-debug/CMakeFiles/hash.dir/test/ht_test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
